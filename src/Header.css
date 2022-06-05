@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.header__logo {
+    width: 100px;
+}
+
+.header > h1 {
+    font-size: 30px;
+}
