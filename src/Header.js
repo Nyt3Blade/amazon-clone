@@ -4,12 +4,37 @@ import "./Header.css"
 function Header() {
   return (
     <div className='header'>
-        <h1>Amazon Clone</h1>
+        
         <img className='header__logo' src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon logo" />
 
-        <div className='header__search'></div>
+        <div className='header__search'>
+            <input className='header__searchInput' type="text"></input>
+            {/* LOGO */}
+        </div>
 
-        <div className='header__info'></div>
+        <div className='header__nav'>
+
+            <div className='header__option'>
+              <span className='header__optionLineOne'>Hello</span>
+              <span className='header__optionLineTwo'>Sign In</span>
+            </div>
+
+            <div className='header__option'>
+              <span className='header__optionLineOne'>Returns</span>
+              <span className='header__optionLineTwo'>& orders</span>
+            </div>
+
+            <div className='header__option'>
+              <span className='header__optionLineOne'>Your</span>
+              <span className='header__optionLineTwo'>Prime</span>
+            </div>
+
+            <div className='header__option'>
+              <span className='header__optionLineOne'></span>
+              <span className='header__optionLineTwo'></span>
+            </div>
+
+        </div>
     </div>
   )
 }
