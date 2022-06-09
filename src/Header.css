@@ -20,6 +20,26 @@
     margin-top: 18px;
 }
 
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    background-color: #cd9042;
+    height: 22px;
+    color: black;
+}
+
 .header__nav {
     display: flex;
     justify-content: space-between;
@@ -28,6 +48,29 @@
 .header__option {
     display: flex;
     flex-direction: column;
-    margin: 10px 20px;
+    margin: 10px;
+    margin-left: 20px;
     margin-top: 18px;
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header__optionBasket {
+    display: flex;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
 }
