@@ -15,6 +15,8 @@ function Product() {
                 <p>"</p><GradeIcon style={{ color: "rgb(255, 200, 0)" }} /><p>"</p>
             </div>
         </div>
+        <img src="https://cdn.pixabay.com/photo/2017/05/15/17/43/cup-2315563__340.jpg" alt="coffeeMugImage"></img>
+        <button>Add To Basket</button>
     </div>
   )
 }
