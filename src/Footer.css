@@ -1,0 +1,153 @@
+.footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.footer__top {
+    background-color: white;
+    padding: 20px 0;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+.footer__topContainer {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer__topContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__topContent h2 {
+    color: #0F1111;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer__signInButton {
+    background-color: #FFD814;
+    width: 280px;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.footer__signInButton:hover {
+    background-color: #F7CA00;
+}
+
+.footer__newCustomer {
+    color: #0F1111;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer__newCustomer a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.footer__newCustomer a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+.footer__container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.footer__column {
+    min-width: 200px;
+}
+
+.footer__column h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer__column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__column ul li {
+    margin-bottom: 10px;
+}
+
+.footer__column ul li a {
+    color: #DDD;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer__column ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer__bottom {
+    background-color: #232f3e;
+    padding: 20px 0;
+    border-top: 1px solid #3a4553;
+}
+
+.footer__bottomContainer {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer__logo img {
+    height: 30px;
+    object-fit: contain;
+}
+
+.footer__selectors {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__language,
+.footer__country {
+    background-color: #232f3e;
+    color: #DDD;
+    border: 1px solid #3a4553;
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.footer__language:hover,
+.footer__country:hover {
+    border-color: #DDD;
+}
+
+.footer__language option,
+.footer__country option {
+    background-color: #232f3e;
+    color: #DDD;
+} 

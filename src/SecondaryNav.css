@@ -1,0 +1,57 @@
+.secondaryNav {
+    background-color: #232f3e;
+    color: white;
+    padding: 4px 0;
+    position: sticky;
+    top: 60px;
+    z-index: 100;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    margin-top: 75px;
+}
+
+.secondaryNav__container {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.secondaryNav__container::-webkit-scrollbar {
+    display: none;
+}
+
+.secondaryNav__item {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    margin-right: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: border-color 0.2s;
+}
+
+.secondaryNav__item:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.secondaryNav__menuIcon {
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.secondaryNav__item:first-child {
+    font-weight: 600;
+}
+
+/* Add some spacing between items */
+.secondaryNav__item:not(:last-child) {
+    margin-right: 1px;
+} 

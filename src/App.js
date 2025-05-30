@@ -1,13 +1,19 @@
 import './App.css';
 import React from 'react';
 import Header from './Header.js';
-import Home from './Home';
+import SecondaryNav from './SecondaryNav';
+import ProductPage from './ProductPage';
+import ProductRows from './ProductRows';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="app">
       <Header/>
-      <Home />
+      <SecondaryNav />
+      <ProductPage />
+      <ProductRows />
+      <Footer />
     </div>
   );
 }
