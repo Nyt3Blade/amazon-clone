@@ -146,12 +146,12 @@
 }
 
 .header__optionLineOne {
-    font-size: 13px;
+    font-size: 0.8125rem; /* 13px */
     color: #ccc;
 }
 
 .header__optionLineTwo {
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
     font-weight: 800;
 }
 
