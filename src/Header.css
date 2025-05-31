@@ -1,9 +1,10 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .header {
-    font-family: 'Amazon Ember', Arial, sans-serif;
+    font-family: 'Amazon Ember', 'Roboto', Arial, sans-serif;
     background-color: #131921;
     color: white;
     display: flex;
@@ -14,8 +15,8 @@
     right: 0;
     align-items: center;
     justify-content: space-between;
-    height: 75px;
-    padding: 0 25px;
+    height: 4.6875rem; /* 75px */
+    padding: 0 1.5625rem; /* 25px */
     width: 100%;
 }
 
@@ -133,11 +134,13 @@
 .header__option {
     display: flex;
     flex-direction: column;
-    margin: 12px 8px;
-    margin-top: 10px;
+    margin: 0.75rem 0.5rem; /* 12px 8px */
+    margin-top: 0.625rem; /* 10px */
     cursor: pointer;
-    padding: 0 15px;
-    min-width: 120px;
+    padding: 0 0.9375rem; /* 15px */
+    min-width: 7.5rem; /* 120px */
+    height: 100%;
+    justify-content: center;
 }
 
 .header__option:hover {
@@ -148,11 +151,14 @@
 .header__optionLineOne {
     font-size: 0.8125rem; /* 13px */
     color: #ccc;
+    line-height: 1.2;
+    margin-bottom: 0.125rem; /* 2px */
 }
 
 .header__optionLineTwo {
     font-size: 1rem; /* 16px */
-    font-weight: 800;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 .header__optionBasket {
