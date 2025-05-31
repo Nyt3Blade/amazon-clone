@@ -146,7 +146,7 @@ function ProductRows() {
             
             <div className="productRows__carousel">
                 <div className="productRows__carouselHeader">
-                    <h2>Up to 60% off | Top picks, best offers from Small Businesses</h2>
+                    <h2>Up to 60% off | Top picks from Small Businesses</h2>
                     <a href="#" className="productRows__item">See more</a>
                 </div>
                 <div className="productRows__carouselContainer">
@@ -158,12 +158,113 @@ function ProductRows() {
 
             <div className="productRows__carousel">
                 <div className="productRows__carouselHeader">
-                    <h2>Up to 75% off | Get casual ready from Small Businesses</h2>
+                    <h2>Up to 75% off | Best deals from Small Businesses</h2>
                     <a href="#" className="productRows__item">See more</a>
                 </div>
                 <div className="productRows__carouselContainer">
                     {carouselImages2.map((image, index) => (
                         <img key={index} src={image} alt="" className="productRows__carouselImage" />
+                    ))}
+                </div>
+            </div>
+
+            <div className="productRows__row">
+                <div className="productRows__box">
+                    <h2 className="productRows__title">Min. 40% off | Handcrafted treasures from artisans</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">CartaDen Wooden Serving Trays Unique Style with Round Handle Large, Medium and Small for Food, Wooden Trays for...</p>
+                        <p className="productRows__item">₹759.00 M.R.P: ₹1,499.00</p>
+                        <p className="productRows__item">Corazzin Garden Patio Seating Chair and Table Set Outdoor Balcony Garden Coffee Table Set Furniture with 1 Table and 4...</p>
+                        <p className="productRows__item">SMAART CRAAFTS Osho Rattan 2 Door Cabinet | Spiral Carving Sideboard with Shelf Storage | Cane Design Cabinet for Living...</p>
+                        <p className="productRows__item">Adichwal Furniture Solid Sheesham Wood 6 Seater Dining Table Set with Cushioned Chairs for Dining Room | Living Room |...</p>
+                    </div>
+                </div>
+
+                <div className="productRows__box">
+                    <h2 className="productRows__title">Best Sellers in Clothing & Accessories</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">GoSriKi Women's Rayon Blend Anarkali Printed Kurta with Pant & Dupatta & Dupatta (CIA Yellow-GS_XL_Yellow_X-Large)</p>
+                        <p className="productRows__item">Allen Solly Men's Plain Regular Fit Cotton Polo (AMKP317G04249_Jet Black_Large)</p>
+                        <p className="productRows__item">SJeware 12 Pairs Solid Cotton Ankle Length Socks for Men & Women, Multicolor, Pack of 12, Free Size</p>
+                        <p className="productRows__item">ANNI DESIGNER Women's Rayon Blend Straight Solid Kurta with Pant & Dupatta (Raja Saab Purple-VKS01_L_Purple_Large)</p>
+                    </div>
+                </div>
+
+                <div className="productRows__box">
+                    <h2 className="productRows__title">Customers' Most-Loved Fashion for you</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">FUNDAY FASHION Cotton Half Sleeve Printed Oversized T-Shirt For Womens/Girls (Pack Of 2, Small, Grey & Pink)</p>
+                        <p className="productRows__item">Allen Solly Men's Regular Fit Polo (ASKPQRGF701338_Medium Blue_L)</p>
+                        <p className="productRows__item">Puma Men, Melanite Slip on, Cool Dark Gray-Black-White, Sneaker, 8UK, (39185802)</p>
+                        <p className="productRows__item">London Hills Oversized Tshirt for Women</p>
+                        <p className="productRows__item">Explore more</p>
+                    </div>
+                </div>
+
+                <div className="productRows__box">
+                    <h2 className="productRows__title">Up to 70% off | Curated products from Small Businesses</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">Pack of 2 Innerwear Organizer Legging Storage Bag Dupatta Organizer Bag, Storage Organizer Pouch, Wardrobe Organizer and...</p>
+                        <p className="productRows__item">₹361.00 M.R.P: ₹1,180.00</p>
+                        <p className="productRows__item">(More Efficient) TeeVea Danish Dough Whisk Stainless Steel Dutch Style Bread Dough Hand Mixer Blender Wooden Handle...</p>
+                        <p className="productRows__item">120 Pcs Air Fryer Disposable Paper Liner, 7.9-inch Liners for Air Fryer [ Fit 5-8 QT ], Non-Stick Parchment Paper for...</p>
+                        <p className="productRows__item">Craftsfy® Large Stainless Steel Chopping Board | Steel Cutting Board | Heavy Duty Chopping Board for Meat &...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="productRows__carousel">
+            <div className="productRows__carouselHeader">
+                <h2>Up to 60% off | Kitchen & Home essentials</h2>
+                <a href="#" className="productRows__item">See more</a>
+            </div>
+            <div className="productRows__carouselContainer">
+                {[
+                    'https://m.media-amazon.com/images/I/61PRtRLZQUL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71Q1NQyx3fL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/81TXRBKKTML._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61DH3b3IkqL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/31lKgs58UkL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/31q9MiMgwSL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61U+0vOwM8L._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71Kq7MiHifL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51YFdwZpRqL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51S2Fuj3+4L._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61E3ZE1IJgL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71CVpwJRRYL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61XJZMYpLDL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71b1TqgGoKL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51vQ+WLH+BL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/6178lqKPfBL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61ULRIKNOHL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51fH4vM6CcL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71PWwDOBP5L._AC_SY200_.jpg'
+                ].map((image, index) => (
+                    <img key={`repeat-${index}`} src={image} alt="" className="productRows__carouselImage" />
+                ))}
+            </div>
+        </div>
+
+            <div className="productRows__carousel">
+                <div className="productRows__carouselHeader">
+                    <h2>Up to 60% off | Kitchen & Home essentials</h2>
+                    <a href="#" className="productRows__item">See more</a>
+                </div>
+                <div className="productRows__carouselContainer">
+                    {[
+                        'https://m.media-amazon.com/images/I/51RETdNXFnL._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/71SK+NICSQL._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/61OijEl6W4L._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/81J5QCsWADL._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/51Fj9-AE-RL._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/71n4K-Esb-L._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/61-45StGyOL._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/71v7zmRkbVL._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/51P+ifsD0FL._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/71q57bditML._AC_SY200_.jpg',
+                        'https://m.media-amazon.com/images/I/51SbsMgGyFL._AC_SY200_.jpg'
+                    ].map((image, index) => (
+                        <img key={`repeat-${index}`} src={image} alt="" className="productRows__carouselImage" />
                     ))}
                 </div>
             </div>
@@ -174,11 +275,234 @@ function ProductRows() {
                     alt="Amazon Banner" 
                     className="productRows__bannerImage"
                 />
+                <p>Sponsored</p>
             </div>
 
-            
+            <div className="productRows__box productRows__liveBox">
+                <div className="productRows__liveHeader">
+                    <h2 className="productRows__title">Amazon LIVE - Watch, Chat & Shop LIVE</h2>
+                    <a href="#" className="productRows__liveLink">See more from Amazon Live</a>
+                </div>
+                <div className="productRows__liveContent">
+                    <div className="productRows__liveMain">
+                        <div className="productRows__liveVideo">
+                            <iframe 
+                                src="https://www.amazon.in/live/broadcast/d4ef8b13-3018-449e-a96a-e465edeb05ba?ref=cm_sw_al_zvXmRcA1q2kXY"
+                                className="productRows__liveVideoElement"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            />
+                        </div>
+                        <div className="productRows__liveInfo">
+                            <p className="productRows__liveTitle">Food Eternity by Hemant</p>
+                            <p className="productRows__liveCommission">Earns commissions</p>
+                        </div>
+                    </div>
+                    <div className="productRows__liveCarousel">
+                        {[
+                            {
+                                image: "https://m.media-amazon.com/images/I/71Nf34uFzaL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "GOLWYN Premium Self Adhesive Kitchen Accessor...",
+                                discount: "48% off",
+                                dealPrice: "₹220.00",
+                                listPrice: "₹425.00",
+                                isLimited: true
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/61y4dR3iMlL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "Qlect Automatic Electric Chopper for Kitchen | Rec...",
+                                dealPrice: "₹499.00",
+                                listPrice: "₹1,999.00"
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/71C5KTp+TOL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "GOLWYN Air Tight Containers For Ki...",
+                                discount: "31% off",
+                                dealPrice: "₹296.00",
+                                listPrice: "₹429.00",
+                                isLimited: true
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/41GaNiOrEtL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "Right Products New Creative Vintage Metal H..."
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/51yQWVm3ubL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "P-Plus International 3 in 1 Rotary Multi-Functi...",
+                                dealPrice: "₹233.00",
+                                listPrice: "₹599.00"
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/61BIGG5Yr+L._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "NH10 DESIGNS Stainless Steel Under Cabinet...",
+                                discount: "62% off",
+                                dealPrice: "₹269.00",
+                                listPrice: "₹699.00",
+                                isLimited: true
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/71aRgGvQcUL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "Seznik Portable Mini Sealing Machine...",
+                                discount: "71% off",
+                                dealPrice: "₹348.00",
+                                listPrice: "₹1,200.00",
+                                isLimited: true,
+                                endsIn: "05:55:37"
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/61N-5a5qk5L._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "Ganesh Plastic Vegetable Slicer Cutter, Black...",
+                                discount: "33% off",
+                                dealPrice: "₹88.00",
+                                listPrice: "₹132.00",
+                                isPrime: true
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/71PdwxbtdNL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "Wolpin Garlic Crusher Presser Ring Garlic Kitchen Tool Multi-Functi..."
+                            },
+                            {
+                                image: "https://m.media-amazon.com/images/I/61dV7RCYobL._SX240_QL100_AC_SCLZZZZZZZ_.jpg",
+                                title: "Hawkins Idli Stand suitable for 5L Cooker (12 Idlis)...",
+                                dealPrice: "₹350.00",
+                                listPrice: "₹380.00"
+                            }
+                        ].map((product, index) => (
+                            <div key={index} className="productRows__liveCarouselItem">
+                                <img src={product.image} alt={product.title} />
+                                <p className="productRows__liveCarouselTitle">{product.title}</p>
+                                {product.discount && (
+                                    <div className="productRows__liveCarouselDiscount">
+                                        <span>{product.discount}</span>
+                                        {product.isLimited && <span>Limited time deal</span>}
+                                        {product.endsIn && <span>Ends in {product.endsIn}</span>}
+                                        {product.isPrime && <span>With Prime</span>}
+                                    </div>
+                                )}
+                                {product.dealPrice && (
+                                    <div className="productRows__liveCarouselPrice">
+                                        <span className="productRows__liveCarouselDealPrice">{product.dealPrice}</span>
+                                        {product.listPrice && (
+                                            <span className="productRows__liveCarouselListPrice">{product.listPrice}</span>
+                                        )}
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+            <div className="productRows__carousel">
+            <div className="productRows__carouselHeader">
+                <h2>Up to 60% off | Kitchen & Home essentials</h2>
+                <a href="#" className="productRows__item">See more</a>
+            </div>
+            <div className="productRows__carouselContainer">
+                {[
+                    'https://m.media-amazon.com/images/I/61PRtRLZQUL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71Q1NQyx3fL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/81TXRBKKTML._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61DH3b3IkqL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/31lKgs58UkL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/31q9MiMgwSL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61U+0vOwM8L._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71Kq7MiHifL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51YFdwZpRqL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51S2Fuj3+4L._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61E3ZE1IJgL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71CVpwJRRYL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61XJZMYpLDL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71b1TqgGoKL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51vQ+WLH+BL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/6178lqKPfBL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61ULRIKNOHL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51fH4vM6CcL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71PWwDOBP5L._AC_SY200_.jpg'
+                ].map((image, index) => (
+                    <img key={`repeat-${index}`} src={image} alt="" className="productRows__carouselImage" />
+                ))}
+            </div>
+            </div>
 
 
+            <div className="productRows__row">
+                <div className="productRows__box">
+                    <h2 className="productRows__title">Min. 40% off | Handcrafted treasures from artisans</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">CartaDen Wooden Serving Trays Unique Style with Round Handle Large, Medium and Small for Food, Wooden Trays for...</p>
+                        <p className="productRows__item">₹759.00 M.R.P: ₹1,499.00</p>
+                        <p className="productRows__item">Corazzin Garden Patio Seating Chair and Table Set Outdoor Balcony Garden Coffee Table Set Furniture with 1 Table and 4...</p>
+                        <p className="productRows__item">SMAART CRAAFTS Osho Rattan 2 Door Cabinet | Spiral Carving Sideboard with Shelf Storage | Cane Design Cabinet for Living...</p>
+                        <p className="productRows__item">Adichwal Furniture Solid Sheesham Wood 6 Seater Dining Table Set with Cushioned Chairs for Dining Room | Living Room |...</p>
+                    </div>
+                </div>
+
+                <div className="productRows__box">
+                    <h2 className="productRows__title">Best Sellers in Clothing & Accessories</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">GoSriKi Women's Rayon Blend Anarkali Printed Kurta with Pant & Dupatta & Dupatta (CIA Yellow-GS_XL_Yellow_X-Large)</p>
+                        <p className="productRows__item">Allen Solly Men's Plain Regular Fit Cotton Polo (AMKP317G04249_Jet Black_Large)</p>
+                        <p className="productRows__item">SJeware 12 Pairs Solid Cotton Ankle Length Socks for Men & Women, Multicolor, Pack of 12, Free Size</p>
+                        <p className="productRows__item">ANNI DESIGNER Women's Rayon Blend Straight Solid Kurta with Pant & Dupatta (Raja Saab Purple-VKS01_L_Purple_Large)</p>
+                    </div>
+                </div>
+
+                <div className="productRows__box">
+                    <h2 className="productRows__title">Customers' Most-Loved Fashion for you</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">FUNDAY FASHION Cotton Half Sleeve Printed Oversized T-Shirt For Womens/Girls (Pack Of 2, Small, Grey & Pink)</p>
+                        <p className="productRows__item">Allen Solly Men's Regular Fit Polo (ASKPQRGF701338_Medium Blue_L)</p>
+                        <p className="productRows__item">Puma Men, Melanite Slip on, Cool Dark Gray-Black-White, Sneaker, 8UK, (39185802)</p>
+                        <p className="productRows__item">London Hills Oversized Tshirt for Women</p>
+                        <p className="productRows__item">Explore more</p>
+                    </div>
+                </div>
+
+            <div className="productRows__box">
+                    <h2 className="productRows__title">Up to 70% off | Curated products from Small Businesses</h2>
+                    <div className="productRows__items">
+                        <p className="productRows__item">Pack of 2 Innerwear Organizer Legging Storage Bag Dupatta Organizer Bag, Storage Organizer Pouch, Wardrobe Organizer and...</p>
+                        <p className="productRows__item">₹361.00 M.R.P: ₹1,180.00</p>
+                        <p className="productRows__item">(More Efficient) TeeVea Danish Dough Whisk Stainless Steel Dutch Style Bread Dough Hand Mixer Blender Wooden Handle...</p>
+                        <p className="productRows__item">120 Pcs Air Fryer Disposable Paper Liner, 7.9-inch Liners for Air Fryer [ Fit 5-8 QT ], Non-Stick Parchment Paper for...</p>
+                        <p className="productRows__item">Craftsfy® Large Stainless Steel Chopping Board | Steel Cutting Board | Heavy Duty Chopping Board for Meat &...</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="productRows__carousel">
+            <div className="productRows__carouselHeader">
+                <h2>Up to 60% off | Kitchen & Home essentials</h2>
+                <a href="#" className="productRows__item">See more</a>
+            </div>
+            <div className="productRows__carouselContainer">
+                {[
+                    'https://m.media-amazon.com/images/I/61PRtRLZQUL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71Q1NQyx3fL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/81TXRBKKTML._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61DH3b3IkqL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/31lKgs58UkL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/31q9MiMgwSL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61U+0vOwM8L._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71Kq7MiHifL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51YFdwZpRqL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51S2Fuj3+4L._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61E3ZE1IJgL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71CVpwJRRYL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61XJZMYpLDL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71b1TqgGoKL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51vQ+WLH+BL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/6178lqKPfBL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/61ULRIKNOHL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/51fH4vM6CcL._AC_SY200_.jpg',
+                    'https://m.media-amazon.com/images/I/71PWwDOBP5L._AC_SY200_.jpg'
+                ].map((image, index) => (
+                    <img key={`repeat-${index}`} src={image} alt="" className="productRows__carouselImage" />
+                ))}
+            </div>
+            </div>
         </div>
     );
 }

@@ -7,24 +7,23 @@
 .productRows::before {
     content: '';
     position: absolute;
-    top: -300px;
+    top: 0;
     left: 0;
     right: 0;
-    height: 1000px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #e3e6e6 100%);
-    z-index: -1;
+    height: 400px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #e6e6e6 100%);
+    z-index: 1;
 }
 
 .productRows::after {
     content: '';
     position: absolute;
-    top: 0;
+    top: 400px;
     left: 0;
     right: 0;
     bottom: 0;
-    background: #ffffff;
-    z-index: -1;
-    margin-top: 200px;
+    background: #e6e6e6;
+    z-index: 1;
 }
 
 .productRows__row {
@@ -35,7 +34,7 @@
     margin-left: 1vw;
     margin-right: 1vw;
     position: relative;
-    z-index: 3;
+    z-index: 2;
     padding: 20px;
 }
 
@@ -48,6 +47,8 @@
     display: flex;
     flex-direction: column;
     min-height: 400px;
+    position: relative;
+    z-index: 2;
 }
 
 .productRows__images {
@@ -62,15 +63,19 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .productRows__image {
     width: 100%;
     height: 116px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 4px;
     cursor: pointer;
     transition: transform 0.2s ease;
+    background-color: white;
+    padding: 5px;
 }
 
 .productRows__image:hover {
@@ -118,7 +123,7 @@
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 
 .productRows__carouselHeader {
@@ -179,9 +184,9 @@
 }
 
 .productRows__carouselImage {
-    width: 200px;
+    width: auto;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 4px;
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -195,10 +200,227 @@
 .productRows__banner {
     margin: 0 15vw;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 .productRows__bannerImage {
     width: 100%;
     height: auto;
     object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.productRows__banner p {
+    text-align: right;
+    color: #6c6c6c;
+    font-size: 14px;
+    margin: 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.productRows__banner p:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.productRows__banner p:hover::before {
+    border-color: #000;
+}
+
+.productRows__whiteSquares {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.productRows__whiteSquare {
+    width: 23%;
+    aspect-ratio: 1;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productRows__liveBox {
+    margin: 20px 1vw;
+    padding: 20px;
+    width: calc(100% - 2vw);
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.productRows__liveHeader {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.productRows__liveLink {
+    color: #007185;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.productRows__liveLink:hover {
+    color: #004F59;
+    text-decoration: underline;
+}
+
+.productRows__liveContent {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.productRows__liveMain {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.productRows__liveCarousel {
+    flex: 0.6;
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.productRows__liveCarousel::-webkit-scrollbar {
+    height: 8px;
+    display: block;
+}
+
+.productRows__liveCarousel::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.productRows__liveCarousel::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.productRows__liveCarousel::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.productRows__liveCarouselItem {
+    min-width: 200px;
+    background: white;
+    padding: 0px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.productRows__liveCarouselItem img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.productRows__liveCarouselTitle {
+    font-size: 14px;
+    color: #0F1111;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.productRows__liveCarouselDiscount {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.productRows__liveCarouselDiscount span:first-child {
+    background: #cc0c39;
+    color: white;
+    padding: 0px 6px;
+    border-radius: 2px;
+    font-size: 12px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.productRows__liveCarouselDiscount span:not(:first-child) {
+    color: #cc0c39;
+    font-size: 12px;
+}
+
+.productRows__liveCarouselPrice {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.productRows__liveCarouselDealPrice {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F1111;
+}
+
+.productRows__liveCarouselListPrice {
+    font-size: 14px;
+    color: #6c6c6c;
+    text-decoration: line-through;
+}
+
+.productRows__liveImage {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.productRows__liveInfo {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.productRows__liveTitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.productRows__liveCommission {
+    font-size: 12px;
+    color: #6c6c6c;
+    margin: 0;
+}
+
+.productRows__liveVideo {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: #000;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.productRows__liveVideoElement {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 } 
